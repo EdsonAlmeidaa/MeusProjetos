@@ -16,6 +16,7 @@ class Conta:
     def saca(self, valor): # Método para subtraí o valor do saldo da conta.
         self.__saldo -= valor
 
-    def transfere(self, valor, origem, destino):
-        origem.saca(valor)
+    def transfere(self, valor, destino):
+        self.saca(valor)
         destino.deposita(valor)
+
