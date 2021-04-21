@@ -31,5 +31,5 @@ class Conta:
         return self.__limite
     
     @limite.setter
-    def limite(self): # Set alterar algo (DEFINIR)
+    def limite(self, limite): # Set alterar algo (DEFINIR)
         self.__limite = limite
