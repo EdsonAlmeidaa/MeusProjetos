@@ -28,3 +28,6 @@ class Conta:
 
     def get_limite(self):
         return self.__limite
+    
+    def set_limite(self): # Set alterar algo (DEFINIR)
+        self.__limite = limite
